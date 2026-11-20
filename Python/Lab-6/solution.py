@@ -1,0 +1,17 @@
+print("="*66)
+print("       CLOTHING STORE BILLING SYSTEM ")
+print("="*66)
+
+cust_name=input("Enter Customer Name:")
+cloth=input("Enter Garament Name:")
+price_cloth=int(input("Enter Price of One Garemnt:"))
+num=int(input("Enter number of garments:"))
+
+print("="* 66)
+print("         BILL")
+print("="* 66)
+print("Customer Name : ", cust_name)
+print("Garment Name : ", cloth)
+print("Price Per Unit : ", price_cloth)
+print("Quantity : ", num)
+print("Total Amount : ", price_cloth * num)
